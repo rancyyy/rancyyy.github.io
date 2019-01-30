@@ -39,6 +39,9 @@ bottom: 0;
 left: 0;
 cursor: pointer;
 }
+#index-page {
+ overflow-y: hidden;
+}
 
 .modal-state {
 display: none;
@@ -153,6 +156,7 @@ transform: rotate(-45deg);
 
             document.getElementById("loader-container").style.display = "none";
             document.getElementById("header").style.display = "block";
+            document.getElementById("index-page").style.overflowY = "scroll";
 
         },3000)
 
